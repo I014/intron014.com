@@ -1,0 +1,85 @@
+body {
+  background: #171E28;
+  color: white;
+  font-family: 'Roboto Mono', monospace;
+  font-size: large;
+}
+p {
+    text-align: center;
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+a {
+    text-decoration: none;
+    color: #FCF7F8
+  }
+a:visited {
+    color: #FCF7F8;
+  }
+.title {
+  padding: 1em;
+  font-size: xx-large;
+}
+.copyright{
+  color: grey;
+  text-align: center;
+  position: relative;
+  bottom: 3px;
+  font-size: x-small;
+}
+
+
+.footerPlaceHolder {
+  position: absolute;
+  bottom: 0;
+  width: 99vw;
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+    
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #171E28;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
