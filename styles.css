@@ -28,7 +28,6 @@ a:visited {
   font-size: x-small;
 }
 
-
 .footerPlaceHolder {
   position: absolute;
   bottom: 0;
@@ -67,11 +66,13 @@ ul {
   overflow: hidden;
   background-color: #171E28;
 }
-
+ul.navBar{
+  display: flex;
+  justify-content: center;
+}
 li {
   float: left;
 }
-
 li a {
   display: block;
   color: white;
@@ -79,7 +80,6 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
 li a:hover {
   background-color: #111;
 }
