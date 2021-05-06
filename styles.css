@@ -4,11 +4,6 @@ body {
   font-family: 'Roboto Mono', monospace;
   font-size: large;
 }
-p {
-    text-align: center;
-    padding-left: 1em;
-    padding-right: 1em;
-  }
 a {
     text-decoration: none;
     color: #FCF7F8
@@ -59,27 +54,75 @@ a:visited {
   font-feature-settings: 'liga';
 }
 
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #171E28;
+.bl {
+  color: #8FBBEA
 }
-ul.navBar{
-  display: flex;
-  justify-content: center;
+.bl-b {
+  background: #617E9E;
+  color: black;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-li {
-  float: left;
+.intron  {
+  background-color: #617E9E;
+  color: #FCF7F8;
+  padding-left: 5px;
+  padding-right: 5px;
 }
-li a {
-  display: block;
-  color: white;
+
+
+p {
+text-align: center;
+}
+
+b {
+font-family: 'Roboto Mono', monospace;
+font-weight: bold;
+}
+
+.flex {
+display: -webkit-box;
+display: -moz-box;
+display: -ms-flexbox;
+display: -webkit-flex;
+display: flex;
+}
+
+.container {
+padding: 0;
+margin: 0;
+list-style: none;
+flex-direction: row;
+justify-content: center;
+}
+
+.container > div {
+flex-grow: 1;
+}
+
+.name, .link {
+padding: 0;
+margin: 0 0.5em;
+list-style: none;
+}
+
+.name {
+margin-left: auto;
+text-align: left;
+}
+
+.link {
+margin-right: auto;
+text-align: right;
+}
+
+.name > li, .link > li {
+color: black;
+font-family: 'Roboto Mono', monospace;
+font-size: 1em;
+}
+#icon {
   text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-li a:hover {
-  background-color: #111;
+  display: inline-block;
+  vertical-align: middle;
 }
